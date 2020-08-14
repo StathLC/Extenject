@@ -1,8 +1,35 @@
-  
 {
-	"name": "com.svermeulen.extenject",
-	"displayName": "Extenject",
-	"version": "0.0.1",
-	"description": "Dependency Injection Framework for Unity3D",
-	"dependencies": {}
+	"name" : "com.svermeulen.extenject",
+	"displayName" : "Extenject",
+	"version" : "9.1.0",
+	"description" : "Dependency Injection Framework for Unity3D",
+	"type" : "tool",
+	"unity" : "2019.3",
+	"samples" : [
+    		{
+		      "displayName": "SampleGame 1",
+		      "description": "Sample Game 1",
+		      "path": "OptionalExtras/SampleGame1 (Beginner)"
+	    	},
+	    	{
+	      		"displayName": "SampleGame 2",
+			"description": "Sample game 2",
+			"path": "OptionalExtras/SampleGame2 (Advanced)"
+	    	},
+	    	{
+	      		"displayName": "TestFramework",
+	      		"description": "Test Framework.",
+	      		"path": "OptionalExtras/TestFramework"
+	    	},
+	    	{
+	      		"displayName": "UnitTests",
+	      		"description": "unit tests.",
+	      		"path": "OptionalExtras/UnitTests"
+	    	},
+	    	{
+	      		"displayName": "IntegrationTests",
+	      		"description": "Integration Tests.",
+	      		"path": "OptionalExtras/IntegrationTests"
+	    	}
+	]
 }
